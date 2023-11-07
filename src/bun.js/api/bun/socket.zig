@@ -1089,7 +1089,6 @@ fn selectALPNCallback(
     }
 }
 
-
 fn NewSocket(comptime ssl: bool) type {
     return struct {
         pub const Socket = uws.NewSocketHandler(ssl);
